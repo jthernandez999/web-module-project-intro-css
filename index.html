@@ -1,56 +1,54 @@
-<!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <!-- Link your CSS stylesheet -->
-<title>Intro to CSS Project</title>
-<link href= "/Users/joehernandez/web-module-project-intro-css/index.css" rel= "stylesheet" type= "text/css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-
+   <link rel="/Users/joehernandez/web-module-project-intro-css/index.css" href="index.css">
 </head>
 <body>
-  <div class="nav_bar">
-        <nav>
-        <a href="#">Plan your Visit</a>
-        <a href="#">Learn about the Park</a>
-        <a href="#">Get Involved</a>
-       </nav>
-      </div>
+<div class="nav_bar">
+  <nav>
+        <a href='plan'>Plan your Visit</a>
+        <a href='learn'>Learn about the Park</a>
+        <a href='get'>Get Involved</a>
+  </nav>
+</div>
+   <section class='start'>
+     <div class='headerimg'>
+      <img src='assets/header_img.jpg'>
 
-    <div class="content_2">
-      <section class="yosemite_image"> 
-        <img src="/Users/joehernandez/web-module-project-intro-css/assets/header_img.jpg">
-      <header><h1>Yosemite Park Guide</h1></header>
-      <p> explore California’s beautiful wilderness.</p>
-      <p>Always open. Reservations are not available or required to enter the park.</p>
-      </section>
+
+      <h1>Yosemite Park Guide</h1> 
     </div>
-      
-      <div class="section_container">
-      <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
-      
-      <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
-      </div>
+      <p>Come explore California’s beautiful wilderness.</p> 
+      <p>Always open. Reservations are not available or required to enter the park.</p>
+    </section>
 
+      <section class='info'>
+        <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p> 
 
-      "https://image.flaticon.com/icons/svg/2979/2979348.svg"
-      <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.</p>
-      
-      "https://image.flaticon.com/icons/svg/820/820374.svg"
-      <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).</p>
-    
-      "footer_img.png"
-      
-      
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-      
+        <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p> 
+      </section>
+
+      <section class='pictures'>
+      <img class='fire' src="https://image.flaticon.com/icons/svg/2979/2979348.svg">
+      <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current <div class='bold'>fire restrictions.</div></p>
+
+      <img class='truck' src="https://image.flaticon.com/icons/svg/820/820374.svg">
+      <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <div class='bold'>park entrance fee</div>  upon arrival (there's no need to pay it in advance).</p>
+      </section>
+
+      <section class='end'>
+
+        <img class='footimg' src='assets/footer_img.jpg'>
+
+      </section>
+
+        <nav>
+          <div class='navfoot'>
+            <p class='plan'>Plan your Visit</p>
+            <p class='learn'>Learn about the Park</p>
+            <p class='get'>Get Involved</p>
+          </div>
+
+        </nav>
 </body>
 </html>
-.yosemite_image{
-  width 10%;
-}
